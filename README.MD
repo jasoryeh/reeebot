@@ -16,3 +16,7 @@ A Discord bot to be annoying and play a random sound from a meme sound effects p
 2. Build this bot
 3. Jar will be target/reee-1.0-SNAPSHOT-jar-with-dependencies
 4. See above instructions
+
+# Test it
+Discord Server: https://discord.gg/DzhDJgS
+Invite current bot (no guarantees on uptime): https://discordapp.com/api/oauth2/authorize?client_id=594336029570367498&permissions=0&scope=bot
