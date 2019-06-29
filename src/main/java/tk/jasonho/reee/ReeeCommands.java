@@ -24,7 +24,7 @@ public class ReeeCommands extends ListenerAdapter {
         //ReeeMain.getMain().getHelper().getLogger().debug("Info - " + event);
         String content = event.getMessage().getContentRaw().toLowerCase();
 
-        if (content.contains(ReeeMain.getMain().getBot().getSelfUser().getAsMention()) && content.contains("get") && content.contains("in") && content.contains("here")) {
+        if (content.contains(ReeeMain.getMain().getBot().getSelfUser().getId()) && content.contains("get") && content.contains("in") && content.contains("here")) {
             //ReeeMain.getMain().getHelper().getLogger().debug("Info - wow");
             if(event.getChannelType() != ChannelType.PRIVATE) {
                 //ReeeMain.getMain().getHelper().getLogger().debug("Info - private");
