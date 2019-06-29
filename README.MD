@@ -2,7 +2,7 @@
 Quick submission for the Discord Hack week :). 
 
 # Description
-A Discord bot to be annoying from a meme sound effects playlist from YouTube.
+A Discord bot to be annoying and play a random sound from a meme sound effects playlist from YouTube.
 
 # How to use?
 1. Run it
