@@ -33,9 +33,11 @@ public class ReeeMain {
 
         // build bot.
         String token;
-        if(System.getenv("BOT_TOKEN") != null || System.getenv("BOT_TOKEN") != "") {
+        if(System.getenv("BOT_TOKEN") != null) {
+            this.helper.getLogger().info("Using BOT_TOKEN");
             token = System.getenv("BOT_TOKEN");
         } else {
+            this.helper.getLogger().info("Using token from config.yml");
             token = this.helper.getConfig().getString("token", null);
         }
 
