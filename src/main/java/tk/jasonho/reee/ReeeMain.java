@@ -32,7 +32,12 @@ public class ReeeMain {
         this.helper = new DiscordEverythingAPI();
 
         // build bot.
-        String token = this.helper.getConfig().getString("token", null);
+        String token;
+        if(System.getenv("BOT_TOKEN") != null || System.getenv("BOT_TOKEN") != "") {
+            token = System.getenv("BOT_TOKEN");
+        } else {
+            token = this.helper.getConfig().getString("token", null);
+        }
 
         this.helper.getLogger().info("JDA Login...");
         this.bot = startBot(token, ReeeBot.class);
