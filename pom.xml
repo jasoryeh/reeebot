@@ -65,27 +65,31 @@
         <repository>
             <id>jcenter</id>
             <name>jcenter-bintray</name>
-            <url>http://jcenter.bintray.com</url>
+            <url>https://jcenter.bintray.com</url>
         </repository>
+        <repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>4.BETA.0_13</version>
+            <version>4.1.0_97</version>
         </dependency>
         <dependency>
             <groupId>com.sedmelluq</groupId>
             <artifactId>lavaplayer</artifactId>
-            <version>1.3.17</version>
+            <version>1.3.33</version>
         </dependency>
 
         <!-- https://github.com/jasoryeh/shortcuts -->
         <dependency>
-            <groupId>tk.jasonho</groupId>
-            <artifactId>shortcuts-everything</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.github.jasoryeh</groupId>
+            <artifactId>shortcuts</artifactId>
+            <version>40776dde87</version>
         </dependency>
 
         <dependency>
